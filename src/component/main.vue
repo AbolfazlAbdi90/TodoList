@@ -1,8 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import ListUsers from '@/component/ListUsers.vue'
+</script>
 <template>
-  <div class="h-dvh w-full flex items-center justify-center bg-red-200">Hello</div>
+  <ListUsers />
 </template>
-
-#app {
-  max-width: 1280px;
-}

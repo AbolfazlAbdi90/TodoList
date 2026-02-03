@@ -1,8 +1,5 @@
-<script setup lang="ts">
-
-import Main from './component/main.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <Main />
+  <RouterView />
 </template>
